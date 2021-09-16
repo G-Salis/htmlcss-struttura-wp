@@ -15,29 +15,27 @@ body{
   margin: auto;
 }
 
-.title, .content_title{
+header{
+  margin-bottom: 20px;
+}
+
+.title, .content_title, footer{
   background-color: blue;
 }
 
 .giam{
+  min-height: 300px;
   background-color: coral;
   background-image: url(https://www.zooplus.it/magazine/wp-content/uploads/2020/10/1-37-768x512.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.title, .giam{
-  margin: 20px 0px;
-}
-
 .title{
-  min-height: 50px
+  min-height: 50px;
+  margin-bottom: 20px;
 }
 
-.giam{
-  min-height: 300px;
-  
-}
 
 main{
   background-color: crimson;
@@ -58,7 +56,7 @@ aside, section{
 }
 
 aside{
-  width: 18%;
+  width: 19%;
   border-radius: 5px;
   padding: 2px;
 }
@@ -67,10 +65,14 @@ ul{
   list-style: none;
 }
 
-.content{
+section{
   text-align: justify;
-  width: 58%;
-  margin: 0px 20px;
+  width: 59%;
+  margin: 0px 10px;
   border-radius: 5px;
 }
 
+footer{
+  margin-top: 5px;
+  min-height: 30px;
+}
