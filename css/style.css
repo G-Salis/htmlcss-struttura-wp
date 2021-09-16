@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+}
+
+.title, .content_title{
+  background-color: blue;
+}
+
+.giam{
+  background-color: coral;
+  background-image: url(https://www.zooplus.it/magazine/wp-content/uploads/2020/10/1-37-768x512.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title, .giam{
+  margin: 20px 0px;
+}
+
+.title{
+  min-height: 50px
+}
+
+.giam{
+  min-height: 300px;
+  
+}
+
+main{
+  background-color: crimson;
+}
+
+.content_title{
+  margin-bottom: 20px;
+}
+
+aside, section{
+  min-height: 300px;
+  float: left;
+  margin-bottom: 20px;
+  background-color: green;
+  background-image: url(https://www.zooplus.it/magazine/wp-content/uploads/2020/10/1-37-768x512.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+aside{
+  width: 18%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+ul{
+  list-style: none;
+}
+
+.content{
+  text-align: justify;
+  width: 58%;
+  margin: 0px 20px;
+  border-radius: 5px;
+}
+
