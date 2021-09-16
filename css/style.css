@@ -11,10 +11,11 @@
 }
 
 body{
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
+/* HEADER */
 header{
   margin-bottom: 20px;
 }
@@ -36,7 +37,7 @@ header{
   margin-bottom: 20px;
 }
 
-
+/* MAIN */
 main{
   background-color: crimson;
 }
@@ -45,9 +46,20 @@ main{
   margin-bottom: 20px;
 }
 
+/* Dimensioni e posizionamento dei float all'interno del main */
+section{
+  width: 58%;
+  margin: 0% 1%;
+}
+
+aside{
+  width: 20%;
+} 
+
 aside, section{
   min-height: 300px;
   float: left;
+  border-radius: 5px;
   margin-bottom: 20px;
   background-color: green;
   background-image: url(https://www.zooplus.it/magazine/wp-content/uploads/2020/10/1-37-768x512.jpg);
@@ -55,23 +67,7 @@ aside, section{
   background-position: center;
 }
 
-aside{
-  width: 19%;
-  border-radius: 5px;
-  padding: 2px;
-}
-
-ul{
-  list-style: none;
-}
-
-section{
-  text-align: justify;
-  width: 59%;
-  margin: 0px 10px;
-  border-radius: 5px;
-}
-
+/* FOOTER */
 footer{
   margin-top: 5px;
   min-height: 30px;
